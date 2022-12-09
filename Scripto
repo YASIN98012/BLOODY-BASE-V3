@@ -1,0 +1,82 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("BLOODY BASE V3", "BloodTheme")
+
+-- Main Tabs
+
+local Tab1 = Window:NewTab("Games")
+local Tab1Section = Tab1:NewSection("Game Scripts")
+
+-- Buttons/Windows
+
+Tab1Section:NewButton("Adopt Me NFR Pet", "Makes Pet Neon Fly Ride", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/adoptmegui1'),true))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Blox Fruit (STRING HUB)", "Powerful Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Evade", "Darkrai X", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Da Hood", "Swag Mode", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Strongest Punch Simulator", "I Dunno", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/itzRolf/Utilities/main/Strongest%20Punch%20Simulator/main.lua",true))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Pop It Trading", "Explore It By YourSelf", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Playgames291/Script/main/Zerpent%20Hub%20V2%20Cracked%20DO%20NOT%20TRY%20TO%20CHECK%20CODE%20IT%20IS%20OBFUSCATED%20SKID"))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("KAT", "Aimbot", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Making Memes at Your Basement at 3am", "Explore By Urself", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Noyoki/ShittyRobloxScripts/main/MakingMemes3Am"))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Ninja Legends", "Op Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/rotartearadsaw/main/Ninja%20Legends%20Script%20Main%20Keyless"))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Arsenal", "Aimbot", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"), true))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Auto Piano", "Plays By Itself", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/AutoPianoV3LoL/main/AutoPianoV3Updated.lua", true))()
+    print("Clicked")
+end)
+Tab1Section:NewButton("Pls Capture", "Unlock All", function()
+for i,v in pairs(game:GetService("Players").LocalPlayer.DataSave.Common.FillOnStart:GetDescendants()) do
+    if v.ClassName == "BoolValue" then
+        v.Value = true
+    end
+end
+    print("Clicked")
+end)
+-- Another Tabs
+local Tab2 = Window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("SCRIPTER UYIOJPP#2129")
+
+local Tab3 = Window:NewTab("Admin Scripts")
+local Tab3Section = Tab3:NewSection("Admin Op Scripts")
+
+-- Another Buttons
+Tab3Section:NewButton("Fate Admin", "Op", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+    print("Clicked")
+end)
+Tab3Section:NewButton("Infinte Yield", "Op", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    print("Clicked")
+end)
+Tab3Section:NewButton("BloodyBurns Admin (TYPE .commands in chat)", "Op", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hexx/main/Iv%20Admin/Admin%202.lua'))()
+    print("Clicked")
+end)
